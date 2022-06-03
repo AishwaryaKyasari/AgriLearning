@@ -13,27 +13,26 @@ export default function CropPrediction() {
     setsoilDetails({...soilDetails,[name]:value  });
     // setsoilDetails({...soilDetails, P:"65"})
   }
+  
   const handleSubmit =(e)=>{
     e.preventDefault();
     const newRecord={...soilDetails}//all the above data is stored in newRecord
     console.log(newRecord);
     setsoilDetails({N:"",P:"",K:"",Temp:"",Humid:"",PH:"",Rain:""})
     console.log(newRecord);
-    exportToJsonFile(newRecord);
+    var data = new FormData()
+    data.append("t",newRecord.Temp);
+    data.append("h",newRecord.Humid);
+    data.append("p",newRecord.PH);
+    data.append("r",newRecord.Rain);
 
+    fetch("http://127.0.0.1:5000/crops",{
+      method:"POST",
+      body:data
+    }).then((result)=>{result.text().then((data)=>{console.log("vo result apna hi hai ",data)})})
   }
 
-  function exportToJsonFile(jsonData) {
-    let dataStr = JSON.stringify(jsonData);
-    let dataUri = 'data:application/json;charset=utf-8,'+ encodeURIComponent(dataStr);
-
-    let exportFileDefaultName = './data.json';
-
-    let linkElement = document.createElement('a');
-    linkElement.setAttribute('href', dataUri);
-    linkElement.setAttribute('download', exportFileDefaultName);
-    linkElement.click();
-}
+  
   return (
     <>
       <h1 className='cropprediction' style={{color: "red"}}>Crop Prediction</h1>

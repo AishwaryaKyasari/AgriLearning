@@ -8,6 +8,8 @@
 } */
  .contactus{
     text-align: center;
+    padding-top: 2%;
+    padding-bottom: 4%;
 }
 * {
   box-sizing: border-box;

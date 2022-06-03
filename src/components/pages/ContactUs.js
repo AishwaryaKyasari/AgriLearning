@@ -23,7 +23,7 @@ export default function ContactUs() {
   }
   return (
   <>
-  <h1 style={{color: "red"}} className='contactus'>CONTACT US</h1>
+  <h1 style={{color: "darkgreen",fontSize:30}} className='contactus'>CONTACT US</h1>
   <form onSubmit={handleSubmit} className="form">
     <div className='space'>
     <label htmlFor="email" className='border'>Enter your email:</label>
@@ -49,7 +49,7 @@ export default function ContactUs() {
     </div>
     <button type='Submit' className='button'>Submit</button>
   </form>
-  <img className="bg-image" src={img}></img>
+  {/* <img className="bg-image" src={img}></img> */}
   </>
   );  
 }

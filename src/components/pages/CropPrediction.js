@@ -35,7 +35,7 @@ export default function CropPrediction() {
   
   return (
     <>
-      <h1 className='cropprediction' style={{color: "red"}}>Crop Prediction</h1>
+      <h1 className='cropprediction' style={{color:"darkgreen", fontSize: 40}}>Crop Prediction</h1>
       <form action="" onSubmit={handleSubmit} className="form">
       <div className='space'>
         <label htmlFor="N" className='border'>Nitrogen(N) :</label>

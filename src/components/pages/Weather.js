@@ -31,7 +31,7 @@ function Weather() {
       return (
         <div className="App">
           <header className="d-flex justify-content-center align-items-center">
-            <h2 style={{textAlign:"center",color:"red"}}>Weather Details</h2>
+            <h2 style={{textAlign:"center",color:"darkgreen",fontSize:40,paddingTop:20,paddingBottom:40}}>Weather Details</h2>
           </header>
           <div className="container">
             <div className="mt-3 d-flex flex-column justify-content-center align-items-center">

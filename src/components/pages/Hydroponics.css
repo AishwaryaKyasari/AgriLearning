@@ -1,0 +1,63 @@
+        .whole{
+            font-size: 1.5em;
+            padding-left: 10%;
+            padding-right: 6%;
+        }
+        .hydro{
+            padding-top: 30px;
+            text-align: center;
+            font-size: 1.8em;
+            color: darkgreen;
+            padding-bottom: 30px;
+        }
+    
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #32573a;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #333;
+            padding-bottom: 10px;
+            line-height: 1em;
+            font-weight: 500;
+        }
+        a, abbr, acronym, address, applet, b, big, blockquote, body, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, tt, u, ul, var {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+            vertical-align: baseline;
+            background: 0 0;
+        }
+
+
+        .main_title {
+            margin-bottom: 20px;
+            font-size: 3em;
+        }
+
+        element.style {
+        }
+        p {
+            padding-bottom: 1em;
+        }
+        a, abbr, acronym, address, applet, b, big, blockquote, body, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, tt, u, ul, var {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+            vertical-align: baseline;
+            background: 0 0;
+        }
+    

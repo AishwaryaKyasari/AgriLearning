@@ -13,6 +13,6 @@ root.render(
   <div>
     <App />
     {/* <Weather/> */}
-    <SeedsInformation/>
+    {/* <SeedsInformation/> */}
   </div>
 );

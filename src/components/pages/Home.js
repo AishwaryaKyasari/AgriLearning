@@ -13,6 +13,7 @@ export default function Home() {
       <h1 className='bg-text2'>A Sustainable Agriculture does not deplete soils or people</h1>
       <img1 className="bg-image" src={img1}></img1>
       <img className="bg-image" src={img}></img>
+      
     </>
   );
 }

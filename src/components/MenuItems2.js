@@ -1,7 +1,7 @@
 export const MenuItems2 = [
     {
       title: 'Hydroponics',
-      path: '/marketing',
+      path: '/Hydroponics',
       cName: 'dropdown-link'
     },
     {

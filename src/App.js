@@ -14,7 +14,7 @@ import Translator from './components/Translator';
 import CropPrediction from './components/pages/CropPrediction';
 import Weather from './components/pages/Weather';
 import SeedsInformation from './components/pages/SeedsInformation';
-
+// import Hydroponics from './components/pages/Hydroponics';
 
 
 
@@ -30,7 +30,8 @@ function App() {
         <Route exact path='/ContactUs' element={<ContactUs/>}/>
         <Route exact path='/CropPrediction' element={<CropPrediction/>} />
         <Route exact path='/Translator' element={<Translator/>} />
-        <Route exact path='/SeedsInformation' element={<SeedsInformation/>} /> 
+        <Route exact path='/SeedsInformation'element={<SeedsInformation/>}/>
+        {/* <Route exact path='/Hydroponics' element={<Hydroponics/>}/> */}
         {/* <Route path='/sign-up' component={SignUp} />
         <Route path='/marketing' component={Marketing} />*/}
       </Routes>

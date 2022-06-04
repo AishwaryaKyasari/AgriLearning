@@ -36,7 +36,7 @@ function App() {
         <Route exact path='/hydroponics' element={<Hydroponics/>}/>
         <Route exact path='/aquaponics' element={<Aquaponics/>}/>
         <Route exact path='/organic' element={<Organic />}/>
-        <Route exact path='/inoragnic' element={<Inorganic/>}/>
+        <Route exact path='/inorganic' element={<Inorganic/>}/>
         {/* <Route path='/sign-up' component={SignUp} />
         <Route path='/marketing' component={Marketing} />*/}
       </Routes>

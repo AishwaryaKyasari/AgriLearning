@@ -16,7 +16,7 @@ export const MenuItems2 = [
     },
     {
       title: 'Inorganic',
-      path: '/Inogranic',
+      path: '/Inorganic',
       cName: 'dropdown-link'
     }
   ];

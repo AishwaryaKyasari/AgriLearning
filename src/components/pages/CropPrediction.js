@@ -29,7 +29,7 @@ export default function CropPrediction() {
     fetch("http://127.0.0.1:5000/crops",{
       method:"POST",
       body:data
-    }).then((result)=>{result.text().then((data)=>{console.log("vo result apna hi hai ",data)})})
+    }).then((result)=>{result.text().then((data)=>{alert(data)})})
   }
 
   

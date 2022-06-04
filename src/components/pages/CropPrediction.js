@@ -42,6 +42,7 @@ export default function CropPrediction() {
         <input type="number" autoComplete="off" 
         value={soilDetails.N}
         onChange={handleInput}
+        placeholder="0-140"
         name="N" id="N"/>
       </div>
       <div className='space'>
@@ -49,6 +50,7 @@ export default function CropPrediction() {
         <input type="number" autoComplete="off" 
         value={soilDetails.P}
         onChange={handleInput}
+        placeholder="5-145"
         name="P" id="P"/>
       </div>
       <div className='space'>
@@ -56,12 +58,14 @@ export default function CropPrediction() {
         <input type="number" autoComplete="off" 
         value={soilDetails.K}
         onChange={handleInput}
+        placeholder="5-205"
         name="K" id="K"/>
       </div>
       <div className='space'>
         <label htmlFor="Temp" className='border'>Temprature  :</label>
         <input type="number" autoComplete="off" 
         value={soilDetails.Temp}
+        placeholder="8.8256-43.6754"
         onChange={handleInput}
         name="Temp" id="Temp"/>
       </div>
@@ -70,6 +74,7 @@ export default function CropPrediction() {
         <input type="number" autoComplete="off" 
         value={soilDetails.Humid}
         onChange={handleInput}
+        placeholder="14.2580-99.9818"
         name="Humid" id="Humid"/>
       </div>
       <div className='space'>
@@ -77,6 +82,7 @@ export default function CropPrediction() {
         <input type="number" autoComplete="off" 
         value={soilDetails.PH}
         onChange={handleInput}
+        placeholder="3.5047-9.9350"
         name="PH" id="PH"/>
       </div>
       <div className='space'>
@@ -84,6 +90,7 @@ export default function CropPrediction() {
         <input type="number" autoComplete="off"  
         value={soilDetails.Rain}
         onChange={handleInput}
+        placeholder="20.2112-298.5601"
         name="Rain" id="Rain"/>
       </div>
       <button type='Submit' className='button'>Submit</button>

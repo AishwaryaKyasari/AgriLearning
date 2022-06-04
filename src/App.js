@@ -15,7 +15,9 @@ import CropPrediction from './components/pages/CropPrediction';
 import Weather from './components/pages/Weather';
 import SeedsInformation from './components/pages/SeedsInformation';
 import Hydroponics from './components/pages/Hydroponics';
-
+import Aquaponics from './components/pages/Aquaponics';
+import Organic from './components/pages/Organic';
+import Inorganic from './components/pages/Inorganic';
 
 
 function App() {
@@ -32,6 +34,9 @@ function App() {
         <Route exact path='/Translator' element={<Translator/>} />
         <Route exact path='/seedsinforamtion' element={<SeedsInformation/>}/>
         <Route exact path='/hydroponics' element={<Hydroponics/>}/>
+        <Route exact path='/aquaponics' element={<Aquaponics/>}/>
+        <Route exact path='/organic' element={<Organic />}/>
+        <Route exact path='/inoragnic' element={<Inorganic/>}/>
         {/* <Route path='/sign-up' component={SignUp} />
         <Route path='/marketing' component={Marketing} />*/}
       </Routes>

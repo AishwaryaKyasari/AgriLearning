@@ -30,6 +30,7 @@ export default function ContactUs() {
         <input type="email" autoComplete="off"
         value={contactus.email}
         onChange={handleInput}
+        placeholder="Enter Email"
         name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
     </div>
     <div className='space'>
@@ -37,6 +38,7 @@ export default function ContactUs() {
         <input type="tel" autoComplete="off"
         value={contactus.pno}
         onChange={handleInput}
+        placeholder="Enter Telephone Number"
         name="pno" id="pno" pattern="[+]{1}[0-9]{11,14}" required/>
     </div>
     <div className='space'>
@@ -45,7 +47,7 @@ export default function ContactUs() {
         value={contactus.query}
         onChange={handleInput}
         name="query" id="query"/> */}
-        <textarea autoComplete="off" value={contactus.query} onChange={handleInput} name="query" id="query"></textarea>
+        <textarea autoComplete="off" value={contactus.query} placeholder="Enter your Query" onChange={handleInput} name="query" id="query"></textarea>
     </div>
     <button type='Submit' className='button'>Submit</button>
   </form>

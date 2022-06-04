@@ -4,7 +4,8 @@ export default function SeedsInformation() {
   return (
   <>
   {/* <h1 className='seedsinforamtion' style={{color: "red"}}>SeedsInformation</h1> */}
-  <h1 style={{color:"Green",textAlign:"center"} }>Agriculture: Subsidies, Seeds, Fertilizers and Related Issues</h1>
+  <div style={{paddingTop:30,PaddingLeft:60}}>
+  <h1 style={{color:"Green",textAlign:"center",fontSize:30,paddingTop:30} }>Agriculture: Subsidies, Seeds, Fertilizers and Related Issues</h1>
   <h2 style={{color:"lightblue"}}>Introduction</h2>
   <br/>
   <p>Agriculture sector is undoubtedly most important sector of Indian economy as it provides employment to 54.6% of people and food security of India revolves around this sector. Its importance can be gauged by the fact that whenever there is fear of deficit monsoon, whole of the population ranging from farmers, workers, businessmen, policy makers and even foreign investors are caught into nervousness. Because of dependence of disproportionate population on this sector, Indian economy can be still said to be an agrarian economy. However, sector is largely state controlled which resulted in widespread inefficiencies and distortions.</p>
@@ -86,8 +87,7 @@ This is testified by the success story of agricultural progress in Punjab Haryan
 </p>
   </p>
   </ol>
-  <div>
-      <YoutubeEmbed1 embedId="rokGy0huYEA" />
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/WJaebuO95L4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </>
   );

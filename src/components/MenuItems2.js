@@ -6,17 +6,17 @@ export const MenuItems2 = [
     },
     {
       title: 'Aquaponics',
-      path: '/consulting',
+      path: '/Aquaponics',
       cName: 'dropdown-link'
     },
     {
       title: 'Organic',
-      path: '/design',
+      path: '/Organic',
       cName: 'dropdown-link'
     },
     {
       title: 'Inorganic',
-      path: '/development',
+      path: '/Inogranic',
       cName: 'dropdown-link'
     }
   ];

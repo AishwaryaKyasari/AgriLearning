@@ -6,7 +6,7 @@ import App from './App';
 import Weather from './components/pages/Weather';
 // import ContactUs from './components/pages/ContactUs';
 // import CropPrediction from './components/pages/CropPrediction';
-import SeedsInformation from './components/pages/SeedsInformation';
+import Inorganic from './components/pages/Inorganic';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,5 +14,6 @@ root.render(
     <App />
     {/* <Weather/> */}
     {/* <SeedsInformation/> */}
+    {/* <Inorganic/> */}
   </div>
 );
